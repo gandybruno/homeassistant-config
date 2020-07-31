@@ -1,0 +1,25 @@
+esphome:
+  name: fff
+  platform: ESP32
+  board: esp-wrover-kit
+
+wifi:
+  ssid: "Livebox-1E76"
+  password: "drgdrfgdf"
+
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: "Fff Fallback Hotspot"
+    password: "s4tmPqPOX7yW"
+
+captive_portal:
+
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+api:
+  password: "dfgdfg"
+
+ota:
+  password: "dfgdfg"

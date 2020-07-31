@@ -1,0 +1,321 @@
+{
+    "data": [
+        {
+            "last_seen": "2020-07-31T13:09:38.307804+00:00",
+            "state": {
+                "attributes": {
+                    "editable": true,
+                    "friendly_name": "Bruno",
+                    "gps_accuracy": 20.0,
+                    "id": "bruno",
+                    "latitude": 43.82515122051766,
+                    "longitude": -0.46681759390777544,
+                    "source": "device_tracker.iphone_de_bruno_2",
+                    "user_id": "cbd6817acc8d42249815944e791777d2"
+                },
+                "context": {
+                    "id": "8710a0cf20214eabb44ed542411858de",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "person.bruno",
+                "last_changed": "2020-07-31T11:10:02.545809+00:00",
+                "last_updated": "2020-07-31T11:10:02.545809+00:00",
+                "state": "home"
+            }
+        },
+        {
+            "last_seen": "2020-07-31T13:09:38.307804+00:00",
+            "state": {
+                "attributes": {
+                    "editable": true,
+                    "friendly_name": "Karine",
+                    "gps_accuracy": 10.0,
+                    "id": "karine",
+                    "latitude": 43.82513641849516,
+                    "longitude": -0.4668083041910704,
+                    "source": "device_tracker.iphone_de_karine"
+                },
+                "context": {
+                    "id": "1b431bc04e4f4c13b16e137cd9b8c180",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "person.karine",
+                "last_changed": "2020-07-31T09:39:13.254261+00:00",
+                "last_updated": "2020-07-31T11:10:05.182047+00:00",
+                "state": "home"
+            }
+        },
+        {
+            "last_seen": "2020-07-31T13:09:38.307804+00:00",
+            "state": {
+                "attributes": {
+                    "editable": true,
+                    "friendly_name": "Lilou",
+                    "gps_accuracy": 10.0,
+                    "id": "lilou",
+                    "latitude": 43.82527425889282,
+                    "longitude": -0.46680545434399207,
+                    "source": "device_tracker.iphone_de_lilou"
+                },
+                "context": {
+                    "id": "da841a8724224bdb994c6ca4c1d4072c",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "person.lilou",
+                "last_changed": "2020-07-31T09:39:13.254814+00:00",
+                "last_updated": "2020-07-31T11:10:05.184266+00:00",
+                "state": "home"
+            }
+        },
+        {
+            "last_seen": "2020-07-31T13:09:38.307804+00:00",
+            "state": {
+                "attributes": {
+                    "editable": true,
+                    "friendly_name": "Marion",
+                    "gps_accuracy": 10.0,
+                    "id": "marion",
+                    "latitude": 43.82513369437663,
+                    "longitude": -0.46681433916135395,
+                    "source": "device_tracker.iphone_de_marion"
+                },
+                "context": {
+                    "id": "04c8dff0d0a44e80bf215481977d2a0a",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "person.marion",
+                "last_changed": "2020-07-31T10:39:53.651940+00:00",
+                "last_updated": "2020-07-31T10:39:53.651940+00:00",
+                "state": "home"
+            }
+        },
+        {
+            "last_seen": "2020-07-31T13:09:38.307804+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "AntiMoustiqueON",
+                    "id": "1594140669219",
+                    "last_triggered": "2020-07-17T16:00:00.016868+00:00",
+                    "mode": "single"
+                },
+                "context": {
+                    "id": "3e6b1ffefed44dbbb7e02d711d03de20",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.antimoustiqueon",
+                "last_changed": "2020-07-31T09:39:25.592754+00:00",
+                "last_updated": "2020-07-31T09:39:25.592754+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2020-07-31T13:09:38.307804+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Moutique2"
+                },
+                "context": {
+                    "id": "f7c805c9d8664b4b95a45532c93a9b51",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "switch.moutique2",
+                "last_changed": "2020-07-31T09:39:25.594312+00:00",
+                "last_updated": "2020-07-31T09:39:25.594312+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2020-07-31T13:09:38.307804+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Moutique3"
+                },
+                "context": {
+                    "id": "89fe808109c34d8198bc49e4296166eb",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "switch.moutique3",
+                "last_changed": "2020-07-31T09:39:25.595154+00:00",
+                "last_updated": "2020-07-31T09:39:25.595154+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2020-07-31T13:09:38.307804+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "edf_hp_daily",
+                    "icon": "mdi:counter",
+                    "last_period": "227.768",
+                    "last_reset": "2020-07-18T00:00:00.024455+02:00",
+                    "meter_period": "daily",
+                    "source": "sensor.index_heures_pleines",
+                    "status": "collecting",
+                    "unit_of_measurement": "Kwh"
+                },
+                "context": {
+                    "id": "03dd88c9417c47b3b94e2203e406add3",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "sensor.edf_hp_daily",
+                "last_changed": "2020-07-31T13:04:17.831399+00:00",
+                "last_updated": "2020-07-31T13:04:17.831399+00:00",
+                "state": "11.202"
+            }
+        },
+        {
+            "last_seen": "2020-07-31T13:09:38.307804+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "edf_hp_monthly",
+                    "icon": "mdi:counter",
+                    "last_period": 0,
+                    "last_reset": "2020-07-17T12:22:21.776873+02:00",
+                    "meter_period": "monthly",
+                    "source": "sensor.index_heures_pleines",
+                    "status": "collecting",
+                    "unit_of_measurement": "Kwh"
+                },
+                "context": {
+                    "id": "f5592c54d6744db2853bee2a5d8cf37a",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "sensor.edf_hp_monthly",
+                "last_changed": "2020-07-31T13:04:17.833340+00:00",
+                "last_updated": "2020-07-31T13:04:17.833340+00:00",
+                "state": "238.970"
+            }
+        },
+        {
+            "last_seen": "2020-07-31T13:09:38.307804+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "edf_hp_yearly",
+                    "icon": "mdi:counter",
+                    "last_period": 0,
+                    "last_reset": "2020-07-17T12:22:21.777813+02:00",
+                    "meter_period": "yearly",
+                    "source": "sensor.index_heures_pleines",
+                    "status": "collecting",
+                    "unit_of_measurement": "Kwh"
+                },
+                "context": {
+                    "id": "522ca72dca2345c2a03983faf68f2a1e",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "sensor.edf_hp_yearly",
+                "last_changed": "2020-07-31T13:04:17.834712+00:00",
+                "last_updated": "2020-07-31T13:04:17.834712+00:00",
+                "state": "238.970"
+            }
+        },
+        {
+            "last_seen": "2020-07-31T13:09:38.307804+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "edf_hc_daily",
+                    "icon": "mdi:counter",
+                    "last_period": "0",
+                    "last_reset": "2020-07-18T00:00:00.027731+02:00",
+                    "meter_period": "daily",
+                    "source": "sensor.index_heures_creuses",
+                    "status": "paused",
+                    "unit_of_measurement": "Kwh"
+                },
+                "context": {
+                    "id": "3670513dd96d450cabf2099a80639e2b",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "sensor.edf_hc_daily",
+                "last_changed": "2020-07-31T09:39:27.810946+00:00",
+                "last_updated": "2020-07-31T09:39:27.810946+00:00",
+                "state": "6.560"
+            }
+        },
+        {
+            "last_seen": "2020-07-31T13:09:38.307804+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "edf_hc_monthly",
+                    "icon": "mdi:counter",
+                    "last_period": 0,
+                    "last_reset": "2020-07-17T12:22:21.779103+02:00",
+                    "meter_period": "monthly",
+                    "source": "sensor.index_heures_creuses",
+                    "status": "paused",
+                    "unit_of_measurement": "Kwh"
+                },
+                "context": {
+                    "id": "d64588388be248c1ad1e113c0da097a5",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "sensor.edf_hc_monthly",
+                "last_changed": "2020-07-31T09:39:27.811997+00:00",
+                "last_updated": "2020-07-31T09:39:27.811997+00:00",
+                "state": "6.560"
+            }
+        },
+        {
+            "last_seen": "2020-07-31T13:09:38.307804+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "edf_hc_yearly",
+                    "icon": "mdi:counter",
+                    "last_period": 0,
+                    "last_reset": "2020-07-17T12:22:21.779771+02:00",
+                    "meter_period": "yearly",
+                    "source": "sensor.index_heures_creuses",
+                    "status": "paused",
+                    "unit_of_measurement": "Kwh"
+                },
+                "context": {
+                    "id": "3398dd90f9f249be8ca38e2541982074",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "sensor.edf_hc_yearly",
+                "last_changed": "2020-07-31T09:39:27.812984+00:00",
+                "last_updated": "2020-07-31T09:39:27.812984+00:00",
+                "state": "6.560"
+            }
+        },
+        {
+            "last_seen": "2020-07-31T13:09:38.307804+00:00",
+            "state": {
+                "attributes": {
+                    "altitude": 81.88488006591797,
+                    "battery_level": 77,
+                    "friendly_name": "iPhone de Bruno",
+                    "gps_accuracy": 65,
+                    "latitude": 43.82513427734375,
+                    "longitude": -0.46681990606083307,
+                    "source_type": "gps",
+                    "vertical_accuracy": 10
+                },
+                "context": {
+                    "id": "d8936c7f5d864b5f8a013533fc953610",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "device_tracker.iphone_de_bruno",
+                "last_changed": "2020-07-31T12:50:03.811665+00:00",
+                "last_updated": "2020-07-31T12:50:03.811665+00:00",
+                "state": "home"
+            }
+        }
+    ],
+    "key": "core.restore_state",
+    "version": 1
+}

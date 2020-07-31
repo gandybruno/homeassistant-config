@@ -1,0 +1,215 @@
+{
+    "data": {
+        "binary_sensor": {},
+        "deleted_ids": [],
+        "sensor": {
+            "37cd4c55e451af91424d53e6cce3f5cb9a0f15083967beef2702a714e5643285_activity": {
+                "added": true,
+                "attributes": {
+                    "Confidence": "High",
+                    "Types": [
+                        "Stationary"
+                    ]
+                },
+                "icon": "mdi:human-male",
+                "name": "Activity",
+                "state": "Stationary",
+                "type": "sensor",
+                "unique_id": "activity",
+                "webhook_id": "37cd4c55e451af91424d53e6cce3f5cb9a0f15083967beef2702a714e5643285"
+            },
+            "37cd4c55e451af91424d53e6cce3f5cb9a0f15083967beef2702a714e5643285_battery_level": {
+                "added": true,
+                "attributes": {
+                    "Battery State": "Not Charging",
+                    "Low Power Mode": false
+                },
+                "device_class": "battery",
+                "icon": "mdi:battery-70",
+                "name": "Battery Level",
+                "state": 76,
+                "type": "sensor",
+                "unique_id": "battery_level",
+                "unit_of_measurement": "%",
+                "webhook_id": "37cd4c55e451af91424d53e6cce3f5cb9a0f15083967beef2702a714e5643285"
+            },
+            "37cd4c55e451af91424d53e6cce3f5cb9a0f15083967beef2702a714e5643285_battery_state": {
+                "added": true,
+                "attributes": {
+                    "Battery Level": 76,
+                    "Low Power Mode": false
+                },
+                "device_class": "battery",
+                "icon": "mdi:battery-70",
+                "name": "Battery State",
+                "state": "Not Charging",
+                "type": "sensor",
+                "unique_id": "battery_state",
+                "webhook_id": "37cd4c55e451af91424d53e6cce3f5cb9a0f15083967beef2702a714e5643285"
+            },
+            "37cd4c55e451af91424d53e6cce3f5cb9a0f15083967beef2702a714e5643285_connectivity_bssid": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:wifi-star",
+                "name": "BSSID",
+                "state": "44:a6:1e:70:1e:7b",
+                "type": "sensor",
+                "unique_id": "connectivity_bssid",
+                "webhook_id": "37cd4c55e451af91424d53e6cce3f5cb9a0f15083967beef2702a714e5643285"
+            },
+            "37cd4c55e451af91424d53e6cce3f5cb9a0f15083967beef2702a714e5643285_connectivity_connection_type": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:wifi",
+                "name": "Connection Type",
+                "state": "Wi-Fi",
+                "type": "sensor",
+                "unique_id": "connectivity_connection_type",
+                "webhook_id": "37cd4c55e451af91424d53e6cce3f5cb9a0f15083967beef2702a714e5643285"
+            },
+            "37cd4c55e451af91424d53e6cce3f5cb9a0f15083967beef2702a714e5643285_connectivity_sim_1": {
+                "added": true,
+                "attributes": {
+                    "Allows VoIP": true,
+                    "Carrier ID": "0000000100000001",
+                    "Carrier Name": "SFR",
+                    "Current Radio Technology": "High Speed Downlink Packet Access (HSDPA)",
+                    "ISO Country Code": "fr",
+                    "Mobile Country Code": "208",
+                    "Mobile Network Code": "10"
+                },
+                "icon": "mdi:sim",
+                "name": "SIM 1",
+                "state": "SFR",
+                "type": "sensor",
+                "unique_id": "connectivity_sim_1",
+                "webhook_id": "37cd4c55e451af91424d53e6cce3f5cb9a0f15083967beef2702a714e5643285"
+            },
+            "37cd4c55e451af91424d53e6cce3f5cb9a0f15083967beef2702a714e5643285_connectivity_ssid": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:wifi",
+                "name": "SSID",
+                "state": "karinetbruno",
+                "type": "sensor",
+                "unique_id": "connectivity_ssid",
+                "webhook_id": "37cd4c55e451af91424d53e6cce3f5cb9a0f15083967beef2702a714e5643285"
+            },
+            "37cd4c55e451af91424d53e6cce3f5cb9a0f15083967beef2702a714e5643285_geocoded_location": {
+                "added": true,
+                "attributes": {
+                    "Administrative Area": "Aquitaine",
+                    "Areas Of Interest": "N/A",
+                    "Country": "France",
+                    "ISO Country Code": "FR",
+                    "Inland Water": "N/A",
+                    "Locality": "Bretagne-de-Marsan",
+                    "Location": [
+                        43.825141058774214,
+                        -0.46681872787016065
+                    ],
+                    "Name": "Chemin de Menon",
+                    "Ocean": "N/A",
+                    "Postal Code": "40280",
+                    "Sub Administrative Area": "Landes",
+                    "Sub Locality": "N/A",
+                    "Sub Thoroughfare": "N/A",
+                    "Thoroughfare": "Chemin de Menon",
+                    "Time Zone": "Europe/Paris",
+                    "Zones": [
+                        "Home"
+                    ]
+                },
+                "icon": "mdi:map",
+                "name": "Geocoded Location",
+                "state": "Chemin de Menon\n40280 Bretagne-de-Marsan\nFrance",
+                "type": "sensor",
+                "unique_id": "geocoded_location",
+                "webhook_id": "37cd4c55e451af91424d53e6cce3f5cb9a0f15083967beef2702a714e5643285"
+            },
+            "37cd4c55e451af91424d53e6cce3f5cb9a0f15083967beef2702a714e5643285_last_update_trigger": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:cellphone-wireless",
+                "name": "Last Update Trigger",
+                "state": "Background Fetch",
+                "type": "sensor",
+                "unique_id": "last_update_trigger",
+                "webhook_id": "37cd4c55e451af91424d53e6cce3f5cb9a0f15083967beef2702a714e5643285"
+            },
+            "37cd4c55e451af91424d53e6cce3f5cb9a0f15083967beef2702a714e5643285_pedometer_avg_active_pace": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:speedometer",
+                "name": "Average Active Pace",
+                "state": 1,
+                "type": "sensor",
+                "unique_id": "pedometer_avg_active_pace",
+                "unit_of_measurement": "m/s",
+                "webhook_id": "37cd4c55e451af91424d53e6cce3f5cb9a0f15083967beef2702a714e5643285"
+            },
+            "37cd4c55e451af91424d53e6cce3f5cb9a0f15083967beef2702a714e5643285_pedometer_distance": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:hiking",
+                "name": "Distance",
+                "state": 119,
+                "type": "sensor",
+                "unique_id": "pedometer_distance",
+                "unit_of_measurement": "m",
+                "webhook_id": "37cd4c55e451af91424d53e6cce3f5cb9a0f15083967beef2702a714e5643285"
+            },
+            "37cd4c55e451af91424d53e6cce3f5cb9a0f15083967beef2702a714e5643285_pedometer_floors_ascended": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:stairs-up",
+                "name": "Floors Ascended",
+                "state": 1,
+                "type": "sensor",
+                "unique_id": "pedometer_floors_ascended",
+                "unit_of_measurement": "floors",
+                "webhook_id": "37cd4c55e451af91424d53e6cce3f5cb9a0f15083967beef2702a714e5643285"
+            },
+            "37cd4c55e451af91424d53e6cce3f5cb9a0f15083967beef2702a714e5643285_pedometer_floors_descended": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:stairs-down",
+                "name": "Floors Descended",
+                "state": 1,
+                "type": "sensor",
+                "unique_id": "pedometer_floors_descended",
+                "unit_of_measurement": "floors",
+                "webhook_id": "37cd4c55e451af91424d53e6cce3f5cb9a0f15083967beef2702a714e5643285"
+            },
+            "37cd4c55e451af91424d53e6cce3f5cb9a0f15083967beef2702a714e5643285_pedometer_steps": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:walk",
+                "name": "Steps",
+                "state": 208,
+                "type": "sensor",
+                "unique_id": "pedometer_steps",
+                "unit_of_measurement": "steps",
+                "webhook_id": "37cd4c55e451af91424d53e6cce3f5cb9a0f15083967beef2702a714e5643285"
+            },
+            "37cd4c55e451af91424d53e6cce3f5cb9a0f15083967beef2702a714e5643285_storage": {
+                "added": true,
+                "attributes": {
+                    "Available": "78,95 Go",
+                    "Available (Important)": "93,40 Go",
+                    "Available (Opportunistic)": "92,12 Go",
+                    "Total": "127,99 Go"
+                },
+                "icon": "mdi:database",
+                "name": "Storage",
+                "state": "71.97",
+                "type": "sensor",
+                "unique_id": "storage",
+                "unit_of_measurement": "% available",
+                "webhook_id": "37cd4c55e451af91424d53e6cce3f5cb9a0f15083967beef2702a714e5643285"
+            }
+        }
+    },
+    "key": "mobile_app",
+    "version": 1
+}

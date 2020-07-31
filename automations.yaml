@@ -1,0 +1,16 @@
+- id: '1594140669219'
+  alias: AntiMoustiqueON
+  description: ''
+  trigger:
+  - hours: '18'
+    minutes: '00'
+    platform: time_pattern
+    seconds: '00'
+  condition: []
+  action:
+  - data: {}
+    entity_id: switch.moutique2
+    service: switch.turn_on
+  - data: {}
+    entity_id: switch.moutique3
+    service: switch.turn_on

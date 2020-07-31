@@ -1,0 +1,226 @@
+{
+    "data": {
+        "entries": [
+            {
+                "connection_class": "cloud_poll",
+                "data": {
+                    "host": "192.168.1.11",
+                    "mac": [
+                        "00-11-32-A8-4D-22"
+                    ],
+                    "password": "Oh3cdm4b",
+                    "port": 5001,
+                    "ssl": true,
+                    "username": "bruno"
+                },
+                "domain": "synology_dsm",
+                "entry_id": "04f2eb680cc14a3d9f3bede90506610c",
+                "options": {},
+                "source": "ssdp",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "192.168.1.11",
+                "unique_id": "1910QEN781806",
+                "version": 1
+            },
+            {
+                "connection_class": "local_poll",
+                "data": {
+                    "st": "urn:schemas-upnp-org:device:InternetGatewayDevice:2",
+                    "udn": "uuid:933d40ac-b7c8-3372-bd77-69d885866eef"
+                },
+                "domain": "upnp",
+                "entry_id": "5f144b28cdfe4efaba434c4c7317cb11",
+                "options": {},
+                "source": "ssdp",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Orange Livebox",
+                "unique_id": "uuid:933d40ac-b7c8-3372-bd77-69d885866eef::urn:schemas-upnp-org:device:InternetGatewayDevice:2",
+                "version": 1
+            },
+            {
+                "connection_class": "local_push",
+                "data": {
+                    "server": "Nas_Maison",
+                    "server_config": {
+                        "client_id": "f8a1de87-c6a6-4388-b0c3-6f37f0c6d88b",
+                        "token": "MVHq_Fbw6sws3LmBLHgp",
+                        "url": "https://192-168-1-11.3aef9838c7a6475bad82a3135ef93ef2.plex.direct:32400",
+                        "verify_ssl": true
+                    },
+                    "server_id": "2fb6a8954032bd2ccf9d6788d992c45727d4271e"
+                },
+                "domain": "plex",
+                "entry_id": "d7076ec8a50e40baa5a82cceb1c1368b",
+                "options": {
+                    "media_player": {}
+                },
+                "source": "user",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Nas_Maison",
+                "unique_id": "2fb6a8954032bd2ccf9d6788d992c45727d4271e",
+                "version": 1
+            },
+            {
+                "connection_class": "cloud_push",
+                "data": {},
+                "domain": "ios",
+                "entry_id": "96fce8bfa63c49cfa17df2f0d249fe47",
+                "options": {},
+                "source": "user",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Home Assistant iOS",
+                "unique_id": "ios",
+                "version": 1
+            },
+            {
+                "connection_class": "cloud_push",
+                "data": {
+                    "app_data": {
+                        "push_token": "ePC7tnw9o00QpZTMbgHjmK:APA91bF3ripigv_iA8z0Aa5nmtXjdjLGP2KwkqU5e13PLB47d2l3e2PzGyAXgtH9yPdrWuEmoMoygODnt3aY7WamU46wOs667QpikZvrkRLCaciflB5SNz--9O8l4bYTTpxbZxq5nc7n",
+                        "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification"
+                    },
+                    "app_id": "io.robbie.HomeAssistant",
+                    "app_name": "Home Assistant",
+                    "app_version": "2020.4.1 (1)",
+                    "device_id": "E8C0DCE5-A3D9-40C0-9116-B2CF8A708328",
+                    "device_name": "iPhone de Bruno",
+                    "manufacturer": "Apple",
+                    "model": "iPhone 7",
+                    "os_name": "iOS",
+                    "os_version": "13.6",
+                    "secret": "e3e56305509beb87c041016a2bea03ad0714770bc3fb478b14e50adb8ab400b2",
+                    "supports_encryption": true,
+                    "user_id": "cbd6817acc8d42249815944e791777d2",
+                    "webhook_id": "37cd4c55e451af91424d53e6cce3f5cb9a0f15083967beef2702a714e5643285"
+                },
+                "domain": "mobile_app",
+                "entry_id": "69838d06362e4eb3b7a0c9e862a644e0",
+                "options": {},
+                "source": "registration",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "iPhone de Bruno",
+                "unique_id": "io.robbie.HomeAssistant-E8C0DCE5-A3D9-40C0-9116-B2CF8A708328",
+                "version": 1
+            },
+            {
+                "connection_class": "cloud_poll",
+                "data": {
+                    "gps_accuracy_threshold": 500,
+                    "max_interval": 30,
+                    "password": "Oh67bf5c",
+                    "username": "gandy.bruno@gmail.com",
+                    "with_family": true
+                },
+                "domain": "icloud",
+                "entry_id": "6e977e4d84ad46aab8bdcd61cb76019f",
+                "options": {},
+                "source": "user",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "gandy.bruno@gmail.com",
+                "unique_id": "gandy.bruno@gmail.com",
+                "version": 1
+            },
+            {
+                "connection_class": "local_push",
+                "data": {
+                    "broker": "core-mosquitto",
+                    "discovery": true,
+                    "password": "eingohqu7iphoongi9kiet2aelooriGa9xae1NaupheuyiF2roh8chiighieraiX",
+                    "port": 1883,
+                    "protocol": "3.1.1",
+                    "username": "homeassistant"
+                },
+                "domain": "mqtt",
+                "entry_id": "2e4f018073b9404e84b1cd0541468424",
+                "options": {},
+                "source": "hassio",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Mosquitto broker",
+                "unique_id": null,
+                "version": 1
+            },
+            {
+                "connection_class": "cloud_poll",
+                "data": {
+                    "city": "bretagne-de-marsan,france"
+                },
+                "domain": "meteo_france",
+                "entry_id": "457064fd58ea420e8bcc91bbd56d4e96",
+                "options": {},
+                "source": "import",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Bretagne-De-Marsan",
+                "unique_id": "Bretagne-De-Marsan",
+                "version": 1
+            },
+            {
+                "connection_class": "cloud_poll",
+                "data": {
+                    "password": "Oh3cdm4b",
+                    "username": "karinetbruno@gmail.com",
+                    "vendor": "neato"
+                },
+                "domain": "neato",
+                "entry_id": "96add2f318b1404789517ee2c102e025",
+                "options": {},
+                "source": "user",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "karinetbruno@gmail.com",
+                "unique_id": null,
+                "version": 1
+            },
+            {
+                "connection_class": "local_poll",
+                "data": {},
+                "domain": "local_ip",
+                "entry_id": "fd9ac879a44849f6a377337b63305452",
+                "options": {},
+                "source": "user",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "local_ip",
+                "unique_id": null,
+                "version": 1
+            },
+            {
+                "connection_class": "local_push",
+                "data": {
+                    "host": "192.168.1.48",
+                    "password": "uRZ7mnneJmbyWFJxeh",
+                    "port": 6053
+                },
+                "domain": "esphome",
+                "entry_id": "7eb982340fbe405f8706fe9127a43881",
+                "options": {},
+                "source": "zeroconf",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "compteur_consommation",
+                "unique_id": "compteur_consommation",
+                "version": 1
+            }
+        ]
+    },
+    "key": "core.config_entries",
+    "version": 1
+}

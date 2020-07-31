@@ -1,0 +1,28 @@
+
+livebox:
+  icon:
+  mac:
+  name: livebox
+  picture:
+  track: true
+
+fr24:
+  icon:
+  mac:
+  name: fr24
+  picture:
+  track: true
+
+synology:
+  icon:
+  mac:
+  name: synology
+  picture:
+  track: true
+
+tv_salon:
+  icon:
+  mac:
+  name: tv_salon
+  picture:
+  track: true

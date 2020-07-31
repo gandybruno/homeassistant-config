@@ -1,0 +1,138 @@
+
+# Configure a default setup of Home Assistant (frontend, api, etc)
+default_config:
+
+http:
+  base_url: "http://homeassistant.local:8123/"
+
+
+# Text to speech
+tts:
+  - platform: google_translate
+
+# Example configuration.yaml entry
+rflink:
+  port: /dev/serial/by-id/usb-Arduino__www.arduino.cc__Arduino_Mega_2560_6493534353335160C072-if00
+  
+
+    
+switch moustique2:
+  platform: rflink
+  devices:
+    TriState_02aa2a_02:
+      name: Moutique2
+    TriState_02a8aa_02:
+      name: Moutique3
+
+# switch moustique3:
+  # platform: rflink
+  # devices:
+    # TriState_02a8aa_02:
+      # name: Moutique3
+      
+mqtt_eventstream:
+  publish_topic: MyServerName
+  
+# Example configuration.yaml entry for Montreal, Canada
+meteo_france:
+  - city: 'bretagne-de-marsan,france'
+  
+# Example configuration.yaml entry
+# Based on adding my NVidia Shield, which has IP 192.168.1.34.
+media_player:
+  - platform: androidtv
+    host: 192.168.1.12
+    name: Android TV Salon
+    device_class: androidtv
+    adb_server_ip: 127.0.0.1
+    adb_server_port: 5037
+    exclude_unnamed_apps: true
+    apps:
+        com.google.android.tvlauncher: "Home"
+        com.google.android.youtube.tv: "Youtube"
+        com.amazon.amazonvideo.livingroom: "Amazon Prime Video"
+        com.plexapp.android: "Plex"
+        com.netflix.ninja: "Netflix"
+        com.google.android.tv: "Live Channels"
+        org.xbmc.kodi: "Kodi"
+        live.aiplex.software: "ThopTV"
+        com.mxtech.videoplayer.ad: "MXPlayer"
+        com.vectorunit.red: "RipTide"
+        com.tcl.tv: "TV"
+# neato:
+  # username: "karinetbruno@gmail.com"    
+  # password: "Oh3cdm4b"
+    
+
+device_tracker:
+  - platform: ping
+    hosts:
+      livebox: 192.168.1.1
+      fr24: 192.168.1.4
+      synology: 192.168.1.11
+      tv_salon : 192.168.1.12
+
+logger:
+  default: error
+  logs:
+    rflink: debug
+    homeassistant.components.rflink: debug
+    homeassistant.components.http.view: info
+    adb.adb_commands: debug
+    adb.adb_protocol: debug
+    
+    
+homeassistant:
+  customize: !include customize.yaml
+  customize_glob: !include customize_glob.yaml
+
+utility_meter:
+#Compteur journalier
+  edf_hp_daily:
+    source: sensor.index_heures_pleines
+    cycle: daily
+#Compteur mensuel
+  edf_hp_monthly:
+    source: sensor.index_heures_pleines
+    cycle: monthly
+#Compteur annuel
+  edf_hp_yearly:
+    source: sensor.index_heures_pleines
+    cycle: yearly
+#Compteur journalier
+  edf_hc_daily:
+    source: sensor.index_heures_creuses
+    cycle: daily
+#Compteur mensuel
+  edf_hc_monthly:
+    source: sensor.index_heures_creuses
+    cycle: monthly
+#Compteur annuel
+  edf_hc_yearly:
+    source: sensor.index_heures_creuses
+    cycle: yearly
+
+######################################################
+#################shell command Musique################
+######################################################
+shell_command:
+  volume_piu_arylic: 'curl -k http://192.168.1.50/httpapi.asp?command=setPlayerCmd:Vol%2B%2B5'
+  volume_meno_arylic: 'curl -k http://192.168.1.50/httpapi.asp?command=setPlayerCmd:Vol--5'
+  mute_arylic: 'curl -k http://192.168.1.50/httpapi.asp?command=setPlayerCmd:mute:1'
+  play_arylic: 'curl -k http://192.168.1.50/httpapi.asp?command=setPlayerCmd:resume'
+  pause_arylic: 'curl -k http://192.168.1.50/httpapi.asp?command=setPlayerCmd:pause'
+  stop_arylic: 'curl -k http://192.168.1.50/httpapi.asp?command=setPlayerCmd:stop'
+  previous_track: 'curl -k http://192.168.1.50/httpapi.asp?command=setPlayerCmd:prev'
+  next_track: 'curl -k http://192.168.1.50/httpapi.asp?command=setPlayerCmd:next'
+  loop_random: 'curl -k http://192.168.1.50/httpapi.asp?command=setPlayerCmd:loopmode:3'
+  loop_track: 'curl -k http://192.168.1.50/httpapi.asp?command=setPlayerCmd:loopmode:0'
+  no_loop: 'curl -k http://192.168.1.50/httpapi.asp?command=setPlayerCmd:loopmode:4'
+
+
+
+group: !include groups.yaml
+automation: !include automations.yaml
+script: !include scripts.yaml
+scene: !include scenes.yaml
+sensor: !include sensor.yaml
+binary_sensor: !include binary_sensor.yaml

@@ -1,0 +1,51 @@
+volume_piu_arylic:
+  sequence:
+   - service: shell_command.volume_piu_arylic
+   - service: homeassistant.update_entity
+     data:
+       entity_id: sensor.volume_arylic
+volume_meno_arylic:
+  sequence:
+   - service: shell_command.volume_meno_arylic
+   - service: homeassistant.update_entity
+     data:
+       entity_id: sensor.volume_arylic
+mute_arylic:
+  sequence:
+   - service: shell_command.mute_arylic
+   - service: homeassistant.update_entity
+     data:
+       entity_id: sensor.volume_arylic
+play_arylic:
+  sequence:
+   - service: shell_command.play_arylic
+   - service: homeassistant.update_entity
+     data:
+       entity_id: sensor.status_arylic
+pause_arylic:
+  sequence:
+   - service: shell_command.pause_arylic
+   - service: homeassistant.update_entity
+     data:
+       entity_id: sensor.status_arylic
+stop_arylic:
+  sequence:
+   - service: shell_command.stop_arylic
+   - service: homeassistant.update_entity
+     data:
+       entity_id: sensor.status_arylic
+previous_track:
+  sequence:
+   - service: shell_command.previous_track
+next_track:
+  sequence:
+   - service: shell_command.next_track
+loop_random:
+  sequence:
+   - service: shell_command.loop_random
+loop_track:
+  sequence:
+   - service: shell_command.loop_track
+no_loop:
+  sequence:
+   - service: shell_command.no_loop
